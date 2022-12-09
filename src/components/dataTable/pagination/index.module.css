@@ -1,0 +1,23 @@
+.paginationContainer {
+  @apply items-center text-right justify-between border-t border-gray-200 py-11;
+}
+
+.paginationContent {
+  @apply flex flex-1 items-center justify-end;
+}
+
+.paginationContentNav {
+  @apply isolate inline-flex space-x-2 rounded-md shadow-sm;
+}
+
+.paginationContentNavButton {
+  @apply relative inline-flex items-center border border-gray-300 bg-white px-2 py-2 text-sm font-medium text-gray-500 hover:bg-gray-50 rounded;
+}
+
+.paginationContentNavButtonIcon {
+  @apply h-5 w-5;
+}
+
+.paginationContentNavSpan {
+  @apply relative inline-flex items-center border-none px-4 py-2 text-sm font-medium text-gray-700;
+}

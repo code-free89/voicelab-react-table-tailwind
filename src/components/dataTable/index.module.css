@@ -1,0 +1,39 @@
+.table {
+  @apply w-full bg-white font-oswald rounded-md mt-6 drop-shadow-[0_2px_18px_#DDE3EC];
+}
+
+.tableTheadTr {
+  @apply h-11 border-b border-secondary-blue-pale-30 border-solid;
+}
+
+.tableThCheck {
+  @apply h-4 w-4 rounded text-indigo-600 focus:ring-indigo-500 m-auto;
+}
+
+.tableTh {
+  @apply text-left text-primary-anthracite-80 font-medium;
+}
+
+.tableTbodyTr {
+  @apply h-20  text-primary-anthracite-100 text-[15px] border-t border-secondary-blue-pale-15 border-solid;
+}
+
+.tableTdCheck {
+  @apply flex items-center;
+}
+
+.tableTdCheckInput {
+  @apply h-4 w-4 rounded text-indigo-600 focus:ring-indigo-500 m-auto mt-5;
+}
+
+.tableTdName {
+  @apply font-semibold;
+}
+
+.tableTdSpecies {
+  @apply font-normal text-primary-anthracite-80;
+}
+
+.tableTdImg {
+  @apply h-[50px] w-[50px] border-2 border-secondary-blue-pale-15 border-dashed rounded-2xl drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)];
+}

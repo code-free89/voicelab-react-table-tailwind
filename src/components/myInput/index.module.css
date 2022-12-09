@@ -1,0 +1,7 @@
+.input {
+  @apply block w-full h-full focus:outline-none text-sm pl-3 border-secondary-blue-pale-40 border-solid border rounded-md;
+}
+
+.icon {
+  @apply pointer-events-none absolute inset-y-0 right-0 flex items-center;
+}

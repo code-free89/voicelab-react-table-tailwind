@@ -1,0 +1,7 @@
+.container {
+  @apply max-w-6xl m-auto mt-14;
+}
+
+.body {
+  @apply mt-6;
+}

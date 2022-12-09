@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project is hosted on firebase [Firebase Hosting](https://voicelab-test-81e96.web.app).
+This project is hosted on firebase [https://voicelab-test-81e96.web.app](https://voicelab-test-81e96.web.app).
 
 ## Available Scripts
 
